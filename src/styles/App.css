@@ -1,12 +1,65 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@700&display=swap");
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 500px;
+}
+.container {
+  background-color: #7db3e9;
+  /* height: 100%;
+  width: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  text-align: center;
+}
+label {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-weight: 500;
+}
+input {
+  font-family: Inter;
+  font-weight: 300;
+  position: relative;
+  left: 13px;
+  border: none;
+}
+#email {
+  position: relative;
+  left: 16px;
+}
+::placeholder {
+  font-size: 13px;
+}
 h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
+  color: #06e7dc;
+  text-align: center;
+}
 
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+select {
+  border: transparent;
+}
+button {
+  color: #27aedb;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
 }
